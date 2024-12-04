@@ -195,8 +195,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.3.vendor \
-    android.hardware.drm-service.clearkey \
-    libcrypto_shim
+    android.hardware.drm-service.clearkey
 
 # fastbootd
 ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
@@ -326,9 +325,7 @@ PRODUCT_COPY_FILES += \
 
 # Netd
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor \
-    libloc_net_iface \
-    libloc_net_iface.vendor
+    android.system.net.netd@1.1.vendor
 
 # Neural Networks
 PRODUCT_PACKAGES += \
